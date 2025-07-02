@@ -52,7 +52,7 @@ img{
 
 
 body{
-	line-height: 1.6;
+	line-height: 1.5;
 	font-family: "Noto Sans TC", sans-serif;
 	color:#212529;
 }
@@ -78,24 +78,39 @@ svg{
 .mb-24{
 	margin-bottom: 24px;
 }
-
 .mb-48{
 	margin-bottom: 48px;
 }
 .mb-64{
 	margin-bottom: 64px;
 }
-
 .mb-10{
 	margin-bottom: 10px;
 }
 .me-10{
 	margin-right: 10px;
 }
+.p-32{
+	padding: 32px;
+}
+.py-64{
+	padding: 64px 0;
+}
+.pb-48{
+	padding-bottom: 48px;
+}
+.ps-10{
+	padding-left: 10px;
+}
+
+
 
 .lh-120{
 	line-height: 1.2;
 }
+
+
+
 .fz-14{
 	font-size: 14px;
 }
@@ -118,18 +133,9 @@ svg{
 	font-weight: 500;
 }
 
-.p-32{
-	padding: 32px;
-}
-.py-64{
-	padding: 64px 0;
-}
-.pb-48{
-	padding-bottom: 48px;
-}
-.ps-10{
-	padding-left: 10px;
-}
+
+
+
 .d-f{
 	display: flex;
 }
@@ -139,6 +145,9 @@ svg{
 .al-c-c{
 	align-content: center;
 }
+
+
+
 .green-text-color{
 	color: #57A203;
 }
@@ -148,7 +157,6 @@ svg{
 .border-s-thick{
 	border-left:4px solid #DEE2E6;
 }
-
 .light-green-bg{
 	background-color: #F5FEE7;
 }
@@ -159,37 +167,32 @@ svg{
 	text-underline-offset: 6px;
 }
 
-.vl-m{
-	vertical-align: middle;
-}
+
+
+
 
 .wrap{
 	max-width: 1076px;
 }
-
 .banner, .section{
 	max-width: 856px;
 }
-
 .header{
 	background-image: url(./img/hero.png);
 	background-size: cover;
 	height: 400px;
 	color:#ffffff;
 }
-
 .main-img{
 	background-image: url(./img/about.png);
 	background-size: cover;
 	height: 717px;
 }
-
 .section-history span{
 	display: inline-block;
 	border-right: 1.5px solid #212529;
 	width: 45px;
 }
-
 .footer{
 	background: #F8F9FA;
 	color: #6C757D;
