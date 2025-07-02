@@ -1,0 +1,190 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Dancing+Script:wght@400..700&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+TC:wght@200..900&family=WDXL+Lubrifont+TC&display=swap');
+
+
+/* ------------------------ */
+
+
+body{
+	line-height: 1.6;
+	font-family: "Noto Sans TC", sans-serif;
+	color:#212529;
+}
+
+ul{
+	list-style-position: inside;
+}
+
+li{
+	margin-bottom: 10px;
+}
+
+svg{
+	vertical-align: middle;
+}
+
+
+.mb-20{
+	margin-bottom: 20px;
+}
+.mb-10{
+	margin-bottom: 10px;
+}
+.me-10{
+	margin-right: 10px;
+}
+
+.lh-120{
+	line-height: 1.2;
+}
+.fz-14{
+	font-size: 14px;
+}
+.fz-20{
+	font-size: 20px;
+}
+.fz-24{
+	font-size: 24px;
+}
+.fz-28{
+	font-size: 28px;
+}
+.fz-40{
+	font-size: 40px;
+}
+.fw-700{
+	font-weight: 700;
+}
+.fw-500{
+	font-weight: 500;
+}
+.m0-a{
+	margin: 0 auto;
+}
+.mb-40{
+	margin-bottom: 40px;
+}
+.p-32{
+	padding: 32px;
+}
+.pb-48{
+	padding-bottom: 48px;
+}
+.ps-10{
+	padding-left: 10px;
+}
+.d-f{
+	display: flex;
+}
+.text-c{
+	text-align: center;
+}
+.al-c-c{
+	align-content: center;
+}
+.green-text-color{
+	color: #57A203;
+}
+.border-b{
+	border-bottom:1px solid #DEE2E6;
+}
+.border-s-thick{
+	border-left:4px solid #DEE2E6;
+}
+
+.light-green-bg{
+	background-color: #F5FEE7;
+}
+.list-style{
+	list-style-type:disc;
+}
+.text-underline-offset{
+	text-underline-offset: 6px;
+}
+
+.vl-m{
+	vertical-align: middle;
+}
+
+.wrap{
+	max-width: 1076px;
+}
+
+.banner, .section{
+	max-width: 856px;
+}
+
+.header{
+	background-image: url(/img/hero.png);
+	background-size: cover;
+	height: 400px;
+	color:#ffffff;
+}
+
+.main-img{
+	background-image: url(/img/about.png);
+	background-size: cover;
+	height: 717px;
+}
+
+.section-history span{
+	display: inline-block;
+	border-right: 1.5px solid #212529;
+	width: 45px;
+}
+
+.footer{
+	background: #F8F9FA;
+	height: 174px;
+	color: #6C757D;
+}
+
+
+
+
